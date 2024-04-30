@@ -48,7 +48,14 @@ for /d %%F in (C:\Users\%username%\Documents\Klei\DoNotStarveTogether*) do (
 	del /s /q /f "%%G\client_save\cached_userid"
 	del /s /q /f "%%G\client_save\keyvalue_generic_prod"
 	del /s /q /f "%%G\client_save\generickv"
-	
+	del /s /q /f "%%G\client_save\keyvalue_skilltree_prod
+		for %%E in (%%G\client_save\*scrapbook*) do (
+			del /s /q /f "%%E"
+		)
+		for %%E in (%%G\client_save\craftpot_*_KU_SDzpmgLc_knownfoods_data) do (
+			del /s /q /f "%%E"
+		)
+pause
 	del /s /q /f "%%G\client_save\modconfiguration_workshop-2226345952
 	del /s /q /f "%%G\client_save\modconfiguration_workshop-1992293314
 	del /s /q /f "%%G\client_save\modconfiguration_workshop-2250176974
