@@ -55,7 +55,7 @@ for /d %%F in (C:\Users\%username%\Documents\Klei\DoNotStarveTogether*) do (
 		for %%E in (%%G\client_save\craftpot_*_KU_SDzpmgLc_knownfoods_data) do (
 			del /s /q /f "%%E"
 		)
-pause
+
 	del /s /q /f "%%G\client_save\modconfiguration_workshop-2226345952
 	del /s /q /f "%%G\client_save\modconfiguration_workshop-1992293314
 	del /s /q /f "%%G\client_save\modconfiguration_workshop-2250176974
