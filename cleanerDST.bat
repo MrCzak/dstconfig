@@ -72,6 +72,7 @@ for /d %%F in (C:\Users\%username%\Documents\Klei\DoNotStarveTogether*) do (
 	del /s /q /f "%%G\client_save\modconfiguration_workshop-2616799130
 	del /s /q /f "%%G\client_save\modconfiguration_workshop-2776801650
 	del /s /q /f "%%G\client_save\modconfiguration_workshop-727774324
+	del /s /q /f "%%G\client_save\modconfiguration_workshop-3317960157
 	del /s /q /f "%%G\client_save\modconfiguration_workshop-2634508979
 	del /s /q /f "%%G\client_save\modconfiguration_workshop-2622561786
 	del /s /q /f "%%G\client_save\modconfiguration_workshop-416991215
