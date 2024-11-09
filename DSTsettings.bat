@@ -2,6 +2,8 @@ C:
 for /d %%F in (C:\Users\%username%\Documents\Klei\DoNotStarveTogether*) do (
   for /d %%G in (%%F\*) do (
     cd %%G\client_save\
+	:: adminlist.txt
+	echo.>>adminlist.txt&echo KU_SDzpmgLc>>adminlist.txt
 	:: craftingmenuprofile
 	echo KLEI     1 {"version":1,"favorites":[],"sort_mode":1,"pinned_pages":{"1":{"1":{"recipe_name":"axe"},"3":{"recipe_name":"hammer","skin_name":"hammer"},"2":{"recipe_name":"pickaxe"},"5":{"skin_name":"torch_shadow_alt","recipe_name":"torch"},"4":{"recipe_name":"shovel"},"7":{"recipe_name":"trap"},"6":{"skin_name":"campfire_cabin","recipe_name":"campfire"},"9":{"recipe_name":"lantern","skin_name":"lantern_winter"},"8":{"recipe_name":"beef_bell"}},"3":{"1":{"skin_name":"researchlab2_crystal","recipe_name":"researchlab2"},"3":{"recipe_name":"footballhat"},"2":{"skin_name":"hambat_nautical","recipe_name":"hambat"},"5":{"recipe_name":"bundlewrap"},"4":{"skin_name":"armor_wood_fangedcollar","recipe_name":"armorwood"},"7":{"recipe_name":"lantern","skin_name":"lantern_mummy"},"6":{"skin_name":"nightsword_lightsbane","recipe_name":"nightsword"},"9":{"skin_name":"icebox_victorian","recipe_name":"icebox"},"8":{"skin_name":"cookpot_survival","recipe_name":"cookpot"}},"2":{"1":{"skin_name":"researchlab_green","recipe_name":"researchlab"},"3":{"recipe_name":"rope"},"2":{"skin_name":"backpack_spider","recipe_name":"backpack"},"5":{"recipe_name":"cutstone"},"4":{"recipe_name":"boards"},"7":{"skin_name":"treasurechest_cupid","recipe_name":"treasurechest"},"6":{"recipe_name":"papyrus"}},"5":[],"4":[],"7":[],"6":[],"9":[],"8":[]},"pinned_page":1}>craftingmenuprofile
 	:: consolescreen
