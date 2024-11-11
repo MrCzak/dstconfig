@@ -47,7 +47,6 @@ for /d %%F in (C:\Users\%username%\Documents\Klei\DoNotStarveTogether*) do (
 	del /s /q /f "%%G\client_save\slot"
 	del /s /q /f "%%G\client_save\cached_userid"
 	del /s /q /f "%%G\client_save\keyvalue_generic_prod"
-	del /s /q /f "%%G\client_save\generickv"
 	del /s /q /f "%%G\client_save\keyvalue_skilltree_prod
 		for %%E in (%%G\client_save\*scrapbook*) do (
 			del /s /q /f "%%E"
@@ -72,7 +71,6 @@ for /d %%F in (C:\Users\%username%\Documents\Klei\DoNotStarveTogether*) do (
 	del /s /q /f "%%G\client_save\modconfiguration_workshop-2616799130
 	del /s /q /f "%%G\client_save\modconfiguration_workshop-2776801650
 	del /s /q /f "%%G\client_save\modconfiguration_workshop-727774324
-	del /s /q /f "%%G\client_save\modconfiguration_workshop-3317960157
 	del /s /q /f "%%G\client_save\modconfiguration_workshop-2634508979
 	del /s /q /f "%%G\client_save\modconfiguration_workshop-2622561786
 	del /s /q /f "%%G\client_save\modconfiguration_workshop-416991215
